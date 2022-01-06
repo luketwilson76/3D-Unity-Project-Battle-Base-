@@ -1,2 +1,2 @@
 # Ripple
-Ripple is a puzzle/platformer that explores the concept of cause and effect in time travel. In this game the player must travel between timelines to solve puzzles and navigate the landscape. What you do in the present effects the past. Each timeline offers a different perspective to solving puzzles.
+Ripple is a puzzle/platformer that explores the concept of a person's psychology and concept of reality. You a test subject for a simulation that creates a world based on the person's neural network. In this game you get to experience mind-boggling mechanics that mess with pereception of reality and the laws of physics.
