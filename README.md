@@ -1,2 +1,2 @@
 # Surreal
-Surreal is a puzzle/platformer that explores the concept of a person's psychology and concept of reality. You a test subject for a simulation that creates a world based on the person's neural network. In this game you get to experience mind-boggling mechanics that mess with pereception of reality and the laws of physics.
+Surreal is a puzzle/platformer about a simulation that creates a world based on a person's brain. You are a test subject for this simulation. The main character must navigate their mind and solve puzzles to escape the simulation.
