@@ -11,7 +11,7 @@ public class Teleport : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(1)){
+        if (Input.GetKeyDown("q")){
             Vector3 tempPosition = new Vector3(object1.position.x,object1.position.y, object1.position.z);
             object1.position = object2.position;
             object2.position = tempPosition;
