@@ -10,18 +10,26 @@ public class Shoot : MonoBehaviour
     public ParticleSystem muzzleflash;
     public GameObject impact;
     public AudioSource pew;
+    public Animator animator;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot_Gun();
+            animator.Play("Recoil");
         }
     }
     void Shoot_Gun()
     {
         muzzleflash.Play();
         RaycastHit hit;
+
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
             Debug.Log(hit.transform.name);
