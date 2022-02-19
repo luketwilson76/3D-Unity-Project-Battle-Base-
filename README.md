@@ -3,3 +3,4 @@ Battle Base is a FPS strategy game that combines the movement shooting of DOOM a
 This game is in it's genesis stage and many gameplay elements will drastically change in the final product. Right now I am just experimenting with game mechanics, models, and animations.  
 
 here is an unlisted video of some stuff I'm experimenting with:  
+https://youtu.be/Ajk6om_5HCQ
