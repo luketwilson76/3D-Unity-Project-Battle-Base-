@@ -108,6 +108,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll"
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll"
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/SketchfabPlugin.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
@@ -325,6 +328,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/animationStateController.cs"
 "Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs"
 "Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs"
 "Assets/EffectExamples/Shared/Scripts/GunAim.cs"
@@ -368,6 +372,7 @@
 "Assets/Other/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/Other/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/Scripts/BlockSystem.cs"
+"Assets/Scripts/currency.cs"
 "Assets/Scripts/DestroyAfterTime.cs"
 "Assets/Scripts/GoTowards.cs"
 "Assets/Scripts/Health.cs"
@@ -375,6 +380,17 @@
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Shoot.cs"
 "Assets/Scripts/Target.cs"
+"Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserManager.cs"
+"Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserWindow.cs"
+"Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabModelWindow.cs"
+"Assets/Sketchfab For Unity/Scripts/Resizer.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabApi.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabExporter.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabImporter.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabImporterWindow.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabLogger.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabPlugin.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabUI.cs"
 -langversion:8.0
 
 /deterministic

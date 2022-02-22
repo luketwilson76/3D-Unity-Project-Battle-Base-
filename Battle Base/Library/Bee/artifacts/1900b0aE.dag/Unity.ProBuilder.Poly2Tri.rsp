@@ -109,6 +109,9 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll"
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll"
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll"
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/SketchfabPlugin.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"

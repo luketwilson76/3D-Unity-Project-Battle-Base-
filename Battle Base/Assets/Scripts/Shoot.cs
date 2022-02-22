@@ -9,7 +9,7 @@ public class Shoot : MonoBehaviour
     public Camera fpsCam;
     public ParticleSystem muzzleflash;
     public GameObject impact;
-    public AudioSource pew;
+    public AudioSource audioData;
     public Animator animator;
 
     void Start()
@@ -19,14 +19,16 @@ public class Shoot : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButton("Fire1"))
         {
+            audioData.Play();
             Shoot_Gun();
             animator.Play("Recoil");
         }
     }
     void Shoot_Gun()
     {
+       
         muzzleflash.Play();
         RaycastHit hit;
 
@@ -38,7 +40,6 @@ public class Shoot : MonoBehaviour
             {
                 target.TakeDamage(damage);
             }
-            pew.Play();
             Instantiate(impact, hit.point, Quaternion.LookRotation(hit.normal));
         }
     }
